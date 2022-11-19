@@ -38,10 +38,11 @@
       background-color: var(--white);
       border-radius: 20px;
       width: fit-content;
+      box-shadow: 0px 0px 40px -16px var(--grayish-blue);
     }
 
     .card-image, .card-title, .card-description {
-      width: 265px;
+      width: 275px;
       text-align: center;
     }
 
@@ -58,12 +59,13 @@
     .qr-card .card-description {
       color: var(--grayish-blue);
       font-weight: 400;
+      width: 260px;
     }
 
   </style>
 </head>
 <body>
-  <div class="qr-card">
+  <main class="qr-card">
     <img src="./images/image-qr-code.png" alt="QR code" class="card-image"/>
     <h3 class="card-title">
       Improve your front-end skills by building projects
@@ -71,6 +73,6 @@
     <p class="card-description">
       Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
     </p>
-  </div>
+  </main>
 </body>
 </html>

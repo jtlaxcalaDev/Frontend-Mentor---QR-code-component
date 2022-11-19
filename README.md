@@ -50,11 +50,14 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   --dark-blue: hsl(218, 44%, 22%);
 }
 
+.qr-card {
+  box-shadow: 0px 0px 40px -16px var(--grayish-blue);
+}
+
 .qr-card .card-description {
   color: var(--grayish-blue);
   font-weight: 400;
 }
-
 ```
 
 ### Continued development
